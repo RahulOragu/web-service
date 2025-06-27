@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: botpress-flask-webhook
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
